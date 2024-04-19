@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A53DB1352BCEA49200AB65D4 /* NovoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB1342BCEA49200AB65D4 /* NovoAppApp.swift */; };
+		A53DB1372BCEA49200AB65D4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB1362BCEA49200AB65D4 /* MainView.swift */; };
+		A53DB1392BCEA49300AB65D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53DB1382BCEA49300AB65D4 /* Assets.xcassets */; };
+		A53DB13C2BCEA49300AB65D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53DB13B2BCEA49300AB65D4 /* Preview Assets.xcassets */; };
+		A53DB1462BCEA49400AB65D4 /* NovoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB1452BCEA49400AB65D4 /* NovoAppTests.swift */; };
+		A53DB1502BCEA49400AB65D4 /* NovoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB14F2BCEA49400AB65D4 /* NovoAppUITests.swift */; };
+		A53DB1522BCEA49400AB65D4 /* NovoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB1512BCEA49400AB65D4 /* NovoAppUITestsLaunchTests.swift */; };
+		A53DB15F2BD1499F00AB65D4 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB15E2BD1499F00AB65D4 /* MovieView.swift */; };
+		A53DB1612BD1560A00AB65D4 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB1602BD1560A00AB65D4 /* MovieDetailsView.swift */; };
+		A53DB1632BD1562400AB65D4 /* MovieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB1622BD1562400AB65D4 /* MovieCardView.swift */; };
+		A53DB1652BD1603900AB65D4 /* ActorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53DB1642BD1603900AB65D4 /* ActorsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A53DB1422BCEA49400AB65D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53DB1292BCEA49200AB65D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53DB1302BCEA49200AB65D4;
+			remoteInfo = NovoApp;
+		};
+		A53DB14C2BCEA49400AB65D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A53DB1292BCEA49200AB65D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A53DB1302BCEA49200AB65D4;
+			remoteInfo = NovoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A53DB1312BCEA49200AB65D4 /* NovoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NovoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53DB1342BCEA49200AB65D4 /* NovoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoAppApp.swift; sourceTree = "<group>"; };
+		A53DB1362BCEA49200AB65D4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A53DB1382BCEA49300AB65D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53DB13B2BCEA49300AB65D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A53DB1412BCEA49400AB65D4 /* NovoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53DB1452BCEA49400AB65D4 /* NovoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoAppTests.swift; sourceTree = "<group>"; };
+		A53DB14B2BCEA49400AB65D4 /* NovoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A53DB14F2BCEA49400AB65D4 /* NovoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoAppUITests.swift; sourceTree = "<group>"; };
+		A53DB1512BCEA49400AB65D4 /* NovoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A53DB15E2BD1499F00AB65D4 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		A53DB1602BD1560A00AB65D4 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		A53DB1622BD1562400AB65D4 /* MovieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardView.swift; sourceTree = "<group>"; };
+		A53DB1642BD1603900AB65D4 /* ActorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53DB12E2BCEA49200AB65D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53DB13E2BCEA49400AB65D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53DB1482BCEA49400AB65D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53DB1282BCEA49200AB65D4 = {
+			isa = PBXGroup;
+			children = (
+				A53DB1622BD1562400AB65D4 /* MovieCardView.swift */,
+				A53DB1602BD1560A00AB65D4 /* MovieDetailsView.swift */,
+				A53DB1332BCEA49200AB65D4 /* NovoApp */,
+				A53DB1442BCEA49400AB65D4 /* NovoAppTests */,
+				A53DB14E2BCEA49400AB65D4 /* NovoAppUITests */,
+				A53DB1322BCEA49200AB65D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53DB1322BCEA49200AB65D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53DB1312BCEA49200AB65D4 /* NovoApp.app */,
+				A53DB1412BCEA49400AB65D4 /* NovoAppTests.xctest */,
+				A53DB14B2BCEA49400AB65D4 /* NovoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A53DB1332BCEA49200AB65D4 /* NovoApp */ = {
+			isa = PBXGroup;
+			children = (
+				A53DB1642BD1603900AB65D4 /* ActorsView.swift */,
+				A53DB1342BCEA49200AB65D4 /* NovoAppApp.swift */,
+				A53DB15E2BD1499F00AB65D4 /* MovieView.swift */,
+				A53DB1362BCEA49200AB65D4 /* MainView.swift */,
+				A53DB1382BCEA49300AB65D4 /* Assets.xcassets */,
+				A53DB13A2BCEA49300AB65D4 /* Preview Content */,
+			);
+			path = NovoApp;
+			sourceTree = "<group>";
+		};
+		A53DB13A2BCEA49300AB65D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A53DB13B2BCEA49300AB65D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A53DB1442BCEA49400AB65D4 /* NovoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				A53DB1452BCEA49400AB65D4 /* NovoAppTests.swift */,
+			);
+			path = NovoAppTests;
+			sourceTree = "<group>";
+		};
+		A53DB14E2BCEA49400AB65D4 /* NovoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A53DB14F2BCEA49400AB65D4 /* NovoAppUITests.swift */,
+				A53DB1512BCEA49400AB65D4 /* NovoAppUITestsLaunchTests.swift */,
+			);
+			path = NovoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53DB1302BCEA49200AB65D4 /* NovoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53DB1552BCEA49400AB65D4 /* Build configuration list for PBXNativeTarget "NovoApp" */;
+			buildPhases = (
+				A53DB12D2BCEA49200AB65D4 /* Sources */,
+				A53DB12E2BCEA49200AB65D4 /* Frameworks */,
+				A53DB12F2BCEA49200AB65D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NovoApp;
+			productName = NovoApp;
+			productReference = A53DB1312BCEA49200AB65D4 /* NovoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A53DB1402BCEA49400AB65D4 /* NovoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53DB1582BCEA49400AB65D4 /* Build configuration list for PBXNativeTarget "NovoAppTests" */;
+			buildPhases = (
+				A53DB13D2BCEA49400AB65D4 /* Sources */,
+				A53DB13E2BCEA49400AB65D4 /* Frameworks */,
+				A53DB13F2BCEA49400AB65D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53DB1432BCEA49400AB65D4 /* PBXTargetDependency */,
+			);
+			name = NovoAppTests;
+			productName = NovoAppTests;
+			productReference = A53DB1412BCEA49400AB65D4 /* NovoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A53DB14A2BCEA49400AB65D4 /* NovoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53DB15B2BCEA49400AB65D4 /* Build configuration list for PBXNativeTarget "NovoAppUITests" */;
+			buildPhases = (
+				A53DB1472BCEA49400AB65D4 /* Sources */,
+				A53DB1482BCEA49400AB65D4 /* Frameworks */,
+				A53DB1492BCEA49400AB65D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53DB14D2BCEA49400AB65D4 /* PBXTargetDependency */,
+			);
+			name = NovoAppUITests;
+			productName = NovoAppUITests;
+			productReference = A53DB14B2BCEA49400AB65D4 /* NovoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53DB1292BCEA49200AB65D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A53DB1302BCEA49200AB65D4 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					A53DB1402BCEA49400AB65D4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A53DB1302BCEA49200AB65D4;
+					};
+					A53DB14A2BCEA49400AB65D4 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A53DB1302BCEA49200AB65D4;
+					};
+				};
+			};
+			buildConfigurationList = A53DB12C2BCEA49200AB65D4 /* Build configuration list for PBXProject "NovoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53DB1282BCEA49200AB65D4;
+			productRefGroup = A53DB1322BCEA49200AB65D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53DB1302BCEA49200AB65D4 /* NovoApp */,
+				A53DB1402BCEA49400AB65D4 /* NovoAppTests */,
+				A53DB14A2BCEA49400AB65D4 /* NovoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53DB12F2BCEA49200AB65D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53DB13C2BCEA49300AB65D4 /* Preview Assets.xcassets in Resources */,
+				A53DB1392BCEA49300AB65D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53DB13F2BCEA49400AB65D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53DB1492BCEA49400AB65D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53DB12D2BCEA49200AB65D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53DB1372BCEA49200AB65D4 /* MainView.swift in Sources */,
+				A53DB1632BD1562400AB65D4 /* MovieCardView.swift in Sources */,
+				A53DB1352BCEA49200AB65D4 /* NovoAppApp.swift in Sources */,
+				A53DB1612BD1560A00AB65D4 /* MovieDetailsView.swift in Sources */,
+				A53DB1652BD1603900AB65D4 /* ActorsView.swift in Sources */,
+				A53DB15F2BD1499F00AB65D4 /* MovieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53DB13D2BCEA49400AB65D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53DB1462BCEA49400AB65D4 /* NovoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53DB1472BCEA49400AB65D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A53DB1522BCEA49400AB65D4 /* NovoAppUITestsLaunchTests.swift in Sources */,
+				A53DB1502BCEA49400AB65D4 /* NovoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A53DB1432BCEA49400AB65D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53DB1302BCEA49200AB65D4 /* NovoApp */;
+			targetProxy = A53DB1422BCEA49400AB65D4 /* PBXContainerItemProxy */;
+		};
+		A53DB14D2BCEA49400AB65D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A53DB1302BCEA49200AB65D4 /* NovoApp */;
+			targetProxy = A53DB14C2BCEA49400AB65D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A53DB1532BCEA49400AB65D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A53DB1542BCEA49400AB65D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53DB1562BCEA49400AB65D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NovoApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bm.NovoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A53DB1572BCEA49400AB65D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NovoApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bm.NovoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A53DB1592BCEA49400AB65D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bm.NovoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NovoApp";
+			};
+			name = Debug;
+		};
+		A53DB15A2BCEA49400AB65D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bm.NovoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NovoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NovoApp";
+			};
+			name = Release;
+		};
+		A53DB15C2BCEA49400AB65D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bm.NovoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovoApp;
+			};
+			name = Debug;
+		};
+		A53DB15D2BCEA49400AB65D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bm.NovoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NovoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53DB12C2BCEA49200AB65D4 /* Build configuration list for PBXProject "NovoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53DB1532BCEA49400AB65D4 /* Debug */,
+				A53DB1542BCEA49400AB65D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53DB1552BCEA49400AB65D4 /* Build configuration list for PBXNativeTarget "NovoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53DB1562BCEA49400AB65D4 /* Debug */,
+				A53DB1572BCEA49400AB65D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53DB1582BCEA49400AB65D4 /* Build configuration list for PBXNativeTarget "NovoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53DB1592BCEA49400AB65D4 /* Debug */,
+				A53DB15A2BCEA49400AB65D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53DB15B2BCEA49400AB65D4 /* Build configuration list for PBXNativeTarget "NovoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53DB15C2BCEA49400AB65D4 /* Debug */,
+				A53DB15D2BCEA49400AB65D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53DB1292BCEA49200AB65D4 /* Project object */;
+}
